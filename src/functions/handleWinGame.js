@@ -37,7 +37,7 @@ function CheckWinStatus(squares, sizeOfBoard, xIsNext, curPos){
         }
     }
 
-    //duyệt chéo xuoi
+    //duyệt ché xuoi
     count = 0;
     if(x - y >= 0){
         for (let i = x - y; i < sizeOfBoard * sizeOfBoard; i = i + sizeOfBoard + 1){
